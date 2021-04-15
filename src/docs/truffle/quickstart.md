@@ -53,7 +53,7 @@ Once this operation is completed, you'll now have a project structure with the f
 * `contracts/`: Directory for [Solidity contracts](/docs/truffle/getting-started/interacting-with-your-contracts)
 * `migrations/`: Directory for [scriptable deployment files](/docs/truffle/getting-started/running-migrations#migration-files)
 * `test/`: Directory for test files for [testing your application and contracts](/docs/truffle/testing/testing-your-contracts)
-* `truffle.js`: Truffle [configuration file](/docs/truffle/reference/configuration)
+* `truffle-config.js`: Truffle [configuration file](/docs/truffle/reference/configuration)
 
 ## Exploring the project
 
@@ -290,7 +290,7 @@ The only extra step, aside from running Ganache, is that it requires editing the
    ```javascript
    module.exports = {
      networks: {
-       development: {
+       develop: {
          host: "127.0.0.1",
          port: 7545,
          network_id: "*"
